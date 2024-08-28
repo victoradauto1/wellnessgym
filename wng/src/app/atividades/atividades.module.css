@@ -1,0 +1,36 @@
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .paragraph {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .listItem {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    position: relative;
+  }
+  
+  .listItem::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #0070f3;
+  }
+  
