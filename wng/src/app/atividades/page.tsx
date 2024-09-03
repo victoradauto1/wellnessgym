@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './atividades.module.css';
+import EnrollmentForm from './EnrollmentForm'; 
 
 const Atividades: React.FC = () => {
   return (
@@ -15,6 +16,11 @@ const Atividades: React.FC = () => {
         <li className={styles.listItem}>Treinamento Funcional</li>
         <li className={styles.listItem}>Spinning</li>
       </ul>
+      
+      <div className={styles.formContainer}>
+        <h2 className={styles.formHeading}>Inscreva-se em uma Atividade</h2>
+        <EnrollmentForm activity="Aulas de Yoga" />
+      </div>
     </div>
   );
 };
